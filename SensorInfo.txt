@@ -1,14 +1,18 @@
 Bosch BMI270
-
 Bosch BMI270 to 6-osiowy układ IMU, łączący 3-osiowy akcelerometr i 3-osiowy żyroskop. Jest projektowany głównie z myślą o urządzeniach noszonych, takich jak smartwatche, opaski sportowe i trackery aktywności. Jego istotną zaletą jest wbudowany algorytm step counter / step detector, zoptymalizowany dla urządzeń noszonych na nadgarstku. Step counter jest nastawiony na dokładność, natomiast step detector na niskie opóźnienia.
 
 BMI323
-
 Bosch BMI323 to nowszy 6-osiowy IMU firmy Bosch, zawierający 16-bitowy akcelerometr, 16-bitowy żyroskop oraz czujnik temperatury. Układ oferuje wbudowany step counter, który zlicza kroki wykrywane przez step detector, a wynik przechowywany jest jako 32-bitowa wartość. Ważną cechą BMI323 jest samokalibracja żyroskopu, która pomaga ograniczać błędy wynikające z dryftu i zmian po montażu. Bosch podaje również pobór prądu około 790 µA przy pracy akcelerometru i żyroskopu, co jest korzystne jak na pełny 6-osiowy pomiar ruchu.
+Ważną cechą BMI323 jest samokalibracja żyroskopu, która pomaga ograniczać błędy wynikające z dryftu i zmian po montażu. Bosch podaje również pobór prądu około 790 µA przy pracy akcelerometru i żyroskopu, co jest korzystne jak na pełny 6-osiowy pomiar ruchu.
 
+ST LSM6DSOX / LSM6DSV16X
+LSM6DSOX to 6-osiowy moduł iNEMO firmy STMicroelectronics z akcelerometrem i żyroskopem. Oferuje zakresy akcelerometru ±2/±4/±8/±16 g oraz żyroskopu ±125/±250/±500/±1000/±2000 dps. Jego duża zaleta to wbudowany Machine Learning Core oraz programowalna logika FSM, które pozwalają klasyfikować wzorce ruchu bez ciągłego angażowania głównego procesora. Pobór prądu w trybie combo high-performance wynosi około 0,55 mA.
+LSM6DSV16X jest nowszą, bardziej zaawansowaną opcją. To również 6-osiowy IMU, ale z rozbudowaną architekturą przetwarzania danych i funkcjami takimi jak embedded sensor fusion. W dokumentacji aplikacyjnej podano pracę w trybie combination high-performance przy około 0,65 mA.
 
+TDK InvenSense ICM-45686
+ICM-45686 to nowoczesny, wysokiej klasy 6-osiowy IMU firmy TDK InvenSense. Łączy akcelerometr i żyroskop, obsługuje interfejsy I²C, SPI oraz I3C, ma FIFO do 8 KB i programowalne przerwania. Producent podaje bardzo niski pobór prądu: 0,22 mA w trybie low power oraz 0,42 mA w trybie low noise dla pracy 6-osiowej.
+Czujnik wyróżnia się bardzo dobrymi parametrami szumowymi: szum żyroskopu około 3,8 mdps/√Hz, a akcelerometru około 70 µg/√Hz. Ma też wbudowany silnik APEX Motion Processing, obejmujący m.in. pedometer, tilt detection, tap detection, raise to wake, wake on motion i detekcję free-fall.
 
-
-
-
-
+TDK InvenSense ICM-42688-P
+ICM-42688-P to sprawdzony 6-osiowy układ MotionTracking firmy TDK InvenSense, zawierający 3-osiowy żyroskop i 3-osiowy akcelerometr w małej obudowie 2,5 × 3 × 0,91 mm.
+Układ oferuje dobre parametry pomiarowe: szum żyroskopu około 2,8 mdps/√Hz, szum akcelerometru około 70 µg/√Hz oraz pobór prądu około 0,88 mA w trybie low-noise dla 6 osi. Obsługuje również funkcje APEX, takie jak pedometer, tilt detection, tap detection, wake on motion i raise to wake/sleep.
