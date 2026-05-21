@@ -1,3 +1,14 @@
 Bosch BMI270
 
 Bosch BMI270 to 6-osiowy układ IMU, łączący 3-osiowy akcelerometr i 3-osiowy żyroskop. Jest projektowany głównie z myślą o urządzeniach noszonych, takich jak smartwatche, opaski sportowe i trackery aktywności. Jego istotną zaletą jest wbudowany algorytm step counter / step detector, zoptymalizowany dla urządzeń noszonych na nadgarstku. Step counter jest nastawiony na dokładność, natomiast step detector na niskie opóźnienia.
+
+BMI323
+
+Bosch BMI323 to nowszy 6-osiowy IMU firmy Bosch, zawierający 16-bitowy akcelerometr, 16-bitowy żyroskop oraz czujnik temperatury. Układ oferuje wbudowany step counter, który zlicza kroki wykrywane przez step detector, a wynik przechowywany jest jako 32-bitowa wartość. Ważną cechą BMI323 jest samokalibracja żyroskopu, która pomaga ograniczać błędy wynikające z dryftu i zmian po montażu. Bosch podaje również pobór prądu około 790 µA przy pracy akcelerometru i żyroskopu, co jest korzystne jak na pełny 6-osiowy pomiar ruchu.
+
+
+
+
+
+
+
