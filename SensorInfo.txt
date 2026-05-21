@@ -1,0 +1,3 @@
+Bosch BMI270
+
+Bosch BMI270 to 6-osiowy układ IMU, łączący 3-osiowy akcelerometr i 3-osiowy żyroskop. Jest projektowany głównie z myślą o urządzeniach noszonych, takich jak smartwatche, opaski sportowe i trackery aktywności. Jego istotną zaletą jest wbudowany algorytm step counter / step detector, zoptymalizowany dla urządzeń noszonych na nadgarstku. Step counter jest nastawiony na dokładność, natomiast step detector na niskie opóźnienia.
